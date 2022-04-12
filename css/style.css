@@ -1,0 +1,30 @@
+body{
+    color: rgb(255, 255, 255);
+    font: normal 13px Roboto;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    color: rgb(255, 255, 255); 
+    font-size: 14px; 
+    min-width: 1200px; 
+    background:rgb(255, 255, 255);
+}
+
+a{
+    color: #fee437;
+    text-decoration: none;
+}
+
+#slide .wImage:before {
+    padding-bottom: 10px;
+}
+
+#logoPartner {
+    display: flex; 
+    justify-content: space-around;
+    margin: 10px;
+}
+#logoPartner .wImage  .img{
+    height: 200px;
+    width: 200px; 
+}

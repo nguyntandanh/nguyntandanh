@@ -1,0 +1,75 @@
+p{
+    font-family: verdana, geneva, sans-serif; 
+    font-size: 15pt;
+    text-align: center;
+}
+h1{
+    font-family: verdana, geneva, sans-serif; 
+    font-size: 10pt;
+}
+ul{
+    list-style-type: square;
+}
+li{
+    font-family: verdana, geneva, sans-serif; 
+    font-size: 10pt;
+}
+section.menu {
+    background-color: rgb(144, 153, 106); 
+}
+section.menu > ul {
+    display: flex;
+}
+section.menu > ul > li {
+    list-style-type: none;
+    border-right: 2px solid blue; 
+}
+section.menu > ul > li:nth-child(5) {
+    margin-left: auto; 
+}
+section.menu > ul > li:nth-child(4) {
+    border-right: none; 
+}
+section.menu > ul > li > a {
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: justify;
+    padding: 15px;
+    font-weight: bold; 
+}
+section.menu > ul > li > a:hover {
+    background-color: darkblue;
+    color: white; 
+}
+section.banner {
+    height: 400px; 
+}
+section.banner > img {
+    height: 400px; 
+}
+section.sub-menu {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+section.sub-menu > ul {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: space-around; 
+}
+section.sub-menu > ul > li {
+    list-style-type: none; 
+}
+section.sub-menu > ul > li > a {
+    text-decoration: none;
+    color: darkblue; 
+}
+section.sub-menu > ul > li > a:hover {
+    color: red; 
+}
+html{
+    background: url(https://erawatch.vn/wp-content/uploads/2019/09/1-8.jpg);
+    background-size: cover;
+}
